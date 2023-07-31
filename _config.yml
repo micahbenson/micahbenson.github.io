@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 twitter_username: username
-github_username: username
+github_username: micahbenson
 minimal_mistakes_skin: contrast
 search: true
 
@@ -62,18 +62,18 @@ author:
   avatar : "/assets/images/bio-pic.jpeg"
   bio    : "Data science student at WashU"
   links:
-    - label: "Website"
+    - label: "Washington University in St. Louis"
+      icon: "fab fa-fw fa-university"
+      url: "https://math.wustl.edu/"
+    - label: "Zhang Lab"
       icon: "fas fa-fw fa-link"
       url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/micahbenson"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "Boston, MA"
+      icon: "fab fa-fw fa-home"
+      #url: "https://instagram.com/"
 
 footer:
   links:
