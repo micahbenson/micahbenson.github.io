@@ -60,7 +60,7 @@ author:
   avatar : "/assets/images/bio-pic.jpeg"
   bio    : "Data science student at WashU"
   links:
-    - label: "WashU"
+    - label: "Washington University in St. Louis"
       icon: "fas fa-university"
       url: "https://math.wustl.edu/"
     - label: "Zhang Lab"
@@ -70,7 +70,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/micahbenson"
     - label: "Boston, MA"
-      icon: "fas fa-fw fa-home"
+      icon: "fas fa-home"
       #url: "https://instagram.com/"
 
 footer:
