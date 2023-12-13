@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Data Science Reserach Portfolio for Micah Benson 
 github_username: micahbenson
 minimal_mistakes_skin: "contrast"
-search: true
+#search: true
 
 # Build settings
 markdown: kramdown
@@ -32,6 +32,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+  - _posts
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -50,7 +51,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
- # - jekyll-feed
+  - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
@@ -59,6 +60,8 @@ author:
   avatar : "/assets/images/bio-pic.jpeg"
   bio    : "WashU Data Science '24"
   links:
+    - label: "a.benson@wustl.edu"
+      icon: "fas fa-fw fa-envelope-square"
     - label: "Washington University in St. Louis"
       icon: "fas fa-university"
       url: "https://cse.wustl.edu/index.html"
@@ -71,9 +74,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/micahbenson"
-    - label: "St. Louis, MO"
-      icon: "fas fa-home"
-      url: 
+
 
 footer:
   links:
