@@ -1,12 +1,6 @@
 ---
 title: "Autoevaluating Bias in LLMs"
 last_modified_at: 2023-12-13
-categories:
-  - Blog
-tags:
-  - Post Formats
-  - readability
-  - standard
 ---
 
 Description of my current NLP Project
