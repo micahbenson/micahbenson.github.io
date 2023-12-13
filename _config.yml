@@ -17,7 +17,6 @@ title: Micah's Portfolio
 email: a.benson@wustl.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Porfolio of data science and machine learning projects by Micah Benson. 
-twitter_username: username
 github_username: micahbenson
 minimal_mistakes_skin: air
 search: true
@@ -62,16 +61,18 @@ author:
   links:
     - label: "Washington University in St. Louis"
       icon: "fas fa-university"
-      url: "https://math.wustl.edu/"
+      url: "https://cse.wustl.edu/index.html"
     - label: "Zhang Genomics Lab"
       icon: "fas fa-fw fa-link"
       url: "https://sites.wustl.edu/jinzhang/?_gl=1%2A1x6xzwv%2A_ga%2AMjUwNTg3NDc0LjE2NzUzMDc3Mjk.%2A_ga_LPTGDJ28VJ%2AMTY5MDgxMzkyNC4xNC4xLjE2OTA4Mjg4ODUuMC4wLjA."
+    - label: "Misión de Caridad"
+      icon: "fas fa-fw fa-link"
+      url: "https://mdcaridad.org/empowerment-programs"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/micahbenson"
-    - label: "Boston, MA"
+    - label: "St. Louis, MO"
       icon: "fas fa-home"
-      url: "https://instagram.com/"
 
 footer:
   links:
