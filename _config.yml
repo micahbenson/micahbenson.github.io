@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Micah's Portfolio
+title: Micah's Research Portfolio
 email: a.benson@wustl.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Porfolio of data science and machine learning projects by Micah Benson. 
+  Data Science Reserach Portfolio for Micah Benson 
 github_username: micahbenson
-minimal_mistakes_skin: air
+minimal_mistakes_skin: contrast
 search: true
 
 # Build settings
