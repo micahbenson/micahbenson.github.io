@@ -1,5 +1,5 @@
 ---
-title: "Evaluating Social Bias in LLM Outputs with LLM-as-a-Judge"
+title: "Autoevaluating Bias in LLMs"
 last_modified_at: 2023-12-13
 categories:
   - Blog
