@@ -63,7 +63,7 @@ author:
     - label: "Washington University in St. Louis"
       icon: "fas fa-university"
       url: "https://math.wustl.edu/"
-    - label: "Zhang Translational Genomics Lab"
+    - label: "Zhang Genomics Lab"
       icon: "fas fa-fw fa-link"
       url: "https://sites.wustl.edu/jinzhang/?_gl=1%2A1x6xzwv%2A_ga%2AMjUwNTg3NDc0LjE2NzUzMDc3Mjk.%2A_ga_LPTGDJ28VJ%2AMTY5MDgxMzkyNC4xNC4xLjE2OTA4Mjg4ODUuMC4wLjA."
     - label: "GitHub"
@@ -75,15 +75,9 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/micahbenson"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 defaults:
   # _posts
