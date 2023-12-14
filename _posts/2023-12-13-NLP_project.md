@@ -8,7 +8,3 @@ For my natural language processing class final, my partner and I created two new
 We ran all our experiments to establish a baseline on these tasks with Google's PaLM-2 model. Our results show that PaLM-2 reaches 0.691 overall accuracy on the online comment bias ranking task and 0.902 accuracy when leaving out ties and invalid responses. On the LLM-output bias ranking task, PaLM-2 reaches 0.424 overall accuracy and 0.688 accuracy when leaving out ties and invalid responses. Another contribution we made in this project is evaluating two methods of ranking pairs of biased text, ranking by asking the model to choose between two options and ranking by asking the model to assign a score to each option individually. We find that the choice method performs better than the score method on our binary ranking tasks. Overall, our results show that LLMs have potential to perform well on the task of ranking biased LLM outputs. 
 
 Check out our git repo: [https://github.com/micahbenson/LLM-judge-harmlessness]
-
-See our final paper for more information: 
-
-<iframe src="/assets/Final_Paper.pdf" style="width:100%; height:800px;" frameborder="0"></iframe>
