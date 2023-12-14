@@ -9,6 +9,6 @@ At the start of the summer, I was given the task of cleaning a large spreadsheet
 
 After cleaning the data, I led a team of doctors to analyze changes in population health over time using the cleaned data. We found that applying silver dioxide fluoride to teeth significantly improved dental health in the short term but wore off over time. MdC used this information to change its strategy for dental care. 
 
-You can learn more about our medical fairs here: https://mdcaridad.org/medical-fairs 
+You can learn more about our medical fairs here: [https://mdcaridad.org/medical-fairs] 
 
-Check out some of the code I used to clean the data on my Github: https://github.com/micahbenson/mdc-data-cleanup 
+Check out some of the code I used to clean the data on my Github: [https://github.com/micahbenson/mdc-data-cleanup]
