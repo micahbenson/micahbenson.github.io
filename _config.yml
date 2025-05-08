@@ -25,15 +25,15 @@ author:
   avatar           : "website_micah.jpg"
   name             : "Micah Benson"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student @ BU CDS"
-  location         : "Boston, MA"
-  employer         : "Boston University"
+  bio              : "Data Science PhD Student"
+  location         : #"Boston, MA"
+  employer         : "Boston University CDS"
   uri              : # URL
   email            : "micahb@bu.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
   orcid            : #"http://orcid.org/yourorcidurl"
   semantic         : # URL
