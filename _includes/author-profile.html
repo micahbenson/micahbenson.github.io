@@ -33,9 +33,30 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
-      {% if author.email %}
+      <!-- {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+      {% endif %}-->
+      {% if author.email %}
+        <li>
+          <a href="#" id="email-link">
+            <i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>
+            <span id="email-text"></span>
+          </a>
+        </li>
+        <script>
+          (function() {
+            const user = "{{ author.email | split: '@' | first }}";
+            const domainParts = "{{ author.email | split: '@' | last }}".split(".");
+            const displayEmail = user + " [at] " + domainParts.join(" [dot] ");
+            const actualEmail = user + "@" + domainParts.join(".");
+
+            document.getElementById("email-link").href = "mailto:" + actualEmail;
+            document.getElementById("email-text").textContent = displayEmail;
+          })();
+        </script>
       {% endif %}
+
+  
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.arxiv %}
